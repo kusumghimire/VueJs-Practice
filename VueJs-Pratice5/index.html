@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Looping through lists
+  </title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+  <div id="vue-app">
+    <h1>
+      Looping through lists
+    </h1>
+    <ul>
+      <li v-for="character in characters ">
+        {{character}}
+      </li>
+    </ul>
+    <ul>
+      <li v-for="ninja in ninjas">{{ninja.name}} - {{ninja.age}}
+
+      </li>
+    </ul>
+
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>

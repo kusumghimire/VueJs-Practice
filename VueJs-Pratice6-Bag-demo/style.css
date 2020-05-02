@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+#bag{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background:url('bag.jpg') center no-repeat;
+   background-size: 80%;   
+}
+#bag.burst{
+    background:url('bag.jpg') center;
+    background-color: #000;
+    /* opacity: 50%; */
+}
+
+#bag-health{
+    width: 200px;
+    border: 2px solid #000;
+    margin: 0 auto 20px auto;
+}
+#bag-health div{
+    height: 20px;
+    background: crimson;
+}
+
+#controls{
+    width: 120px;
+    margin: 0 auto;
+}
